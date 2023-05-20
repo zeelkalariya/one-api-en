@@ -75,23 +75,23 @@ var (
 // All duration's unit is seconds
 // Shouldn't larger then RateLimitKeyExpirationDuration
 var (
-	GlobalApiRateLimitNum            = 180
-	GlobalApiRateLimitDuration int64 = 3 * 60
+	GlobalApiRateLimitNum            = 18000
+	GlobalApiRateLimitDuration int64 = 300 * 60
 
-	GlobalWebRateLimitNum            = 60
-	GlobalWebRateLimitDuration int64 = 3 * 60
+	GlobalWebRateLimitNum            = 6000
+	GlobalWebRateLimitDuration int64 = 300 * 60
 
-	UploadRateLimitNum            = 10
+	UploadRateLimitNum            = 10000
 	UploadRateLimitDuration int64 = 60
 
-	DownloadRateLimitNum            = 10
+	DownloadRateLimitNum            = 10000
 	DownloadRateLimitDuration int64 = 60
 
-	CriticalRateLimitNum            = 20
-	CriticalRateLimitDuration int64 = 20 * 60
+	CriticalRateLimitNum            = 20000
+	CriticalRateLimitDuration int64 = 400 * 60
 )
 
-var RateLimitKeyExpirationDuration = 20 * time.Minute
+var RateLimitKeyExpirationDuration = 200 * time.Minute
 
 const (
 	UserStatusEnabled  = 1 // don't use 0, 0 is the default value!
