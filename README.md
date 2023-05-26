@@ -48,17 +48,15 @@ _✨All in one's OpenAI interface, integrating various API access methods, out o
 ## Function
 # OpenAI API Options
 
-- [x] **Azure OpenAI API**
-  - [x] [API2D](https://api2d.com/r/197971)
-  - [x] [OhMyGPT](https://aigptx.top?aff=uFpUl2Kf)
-  - [x] [AI Proxy](https://aiproxy.io/?i=OneAPI)
-  - [x] [AI Proxy](https://aiproxy.io/?i=OneAPI) (Invite code: `OneAPI`)
-  - [x] [AI.LS](https://ai.ls)
-  - [x] [OpenAI Max](https://openaimax.com)
-  - [x] [OpenAI-SB](https://openai-sb.com)
-  - [x] [CloseAI](https://console.openai-asia.com)
-  - [x] [CloseAI](https://console.openai-asia.com/r/2412)
-  - [x] Custom Channel: For example, using a self-hosted OpenAI proxy.
+[x] **Azure OpenAI API**
+[x] [API2D](https://api2d.com/r/197971)
+[x] [OhMyGPT](https://aigptx.top?aff=uFpUl2Kf)
+[x] [AI Proxy](https://aiproxy.io/?i=OneAPI) (Invite code: `OneAPI`)
+[x] [AI.LS](https://ai.ls)
+[x] [OpenAI Max](https://openaimax.com)
+[x] [OpenAI-SB](https://openai-sb.com)
+[x] [CloseAI](https://console.openai-asia.com/r/2412)
+[x] Custom Channel: For example, using a self-hosted OpenAI proxy.
 
 2. Supports accessing multiple channels through **load balancing**.
 3. Supports **stream mode** for typewriter effect using streaming transmission.
