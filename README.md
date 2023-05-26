@@ -46,20 +46,19 @@ _✨All in one's OpenAI interface, integrating various API access methods, out o
 
 
 ## Function
-# OpenAI API Options
-
-[x] **Azure OpenAI API**
-[x] [API2D](https://api2d.com/r/197971)
-[x] [OhMyGPT](https://aigptx.top?aff=uFpUl2Kf)
-[x] [AI Proxy](https://aiproxy.io/?i=OneAPI) (Invite code: `OneAPI`)
-[x] [AI.LS](https://ai.ls)
-[x] [OpenAI Max](https://openaimax.com)
-[x] [OpenAI-SB](https://openai-sb.com)
-[x] [CloseAI](https://console.openai-asia.com/r/2412)
-[x] Custom Channel: For example, using a self-hosted OpenAI proxy.
-
-2. Supports accessing multiple channels through **load balancing**.
-3. Supports **stream mode** for typewriter effect using streaming transmission.
+1. Multiple API access channels are supported. PRs or issues are welcome to add more channels:
+    + [x] OpenAI official channel
+    + [x] **Azure OpenAI API**
+    + [x] [API2D](https://api2d.com/r/197971)
+    + [x] [OhMyGPT](https://aigptx.top?aff=uFpUl2Kf)
+    + [x] [AI Proxy](https://aiproxy.io/?i=OneAPI)
+   + [x] [AI.LS](https://ai.ls)
+    + [x] [OpenAI Max](https://openaimax.com)
+    + [x] [OpenAI-SB](https://openai-sb.com)
+    + [x] [CloseAI](https://console.openai-asia.com)
+    + [x] Custom channels: e.g. using a self-built OpenAI agent
+2. Support access to multiple channels through **load balancing**.
+3. Support **stream mode**, you can achieve typewriter effect through streaming.
 4. Support **multi-machine deployment**, [see here for details](#multi-machine deployment).
 5. Support **token management**, set the expiration time and usage times of the token.
 6. Supports **redemption code management**, supports batch generation and export of redemption codes, and can use redemption codes to recharge accounts.
